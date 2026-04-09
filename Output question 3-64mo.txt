@@ -1,0 +1,25 @@
+Connecting to namenode via http://sandbox-hdp.hortonworks.com:50070/fsck?ugi=maria_dev&files=1&blocks=1&path=%2Fuser%2Fmaria_dev%2Fexam%2Ftags_64.csv
+FSCK started by maria_dev (auth:SIMPLE) from /172.18.0.2 for path /user/maria_dev/exam/tags_64.csv at Wed Apr 01 19:55:43 UTC 2026
+/user/maria_dev/exam/tags_64.csv 38810332 bytes, 1 block(s):  OK
+0. BP-243674277-172.17.0.2-1529333510191:blk_1073743154_2334 len=38810332 repl=1
+
+Status: HEALTHY
+ Total size:    38810332 B
+ Total dirs:    0
+ Total files:   1
+ Total symlinks:                0
+ Total blocks (validated):      1 (avg. block size 38810332 B)
+ Minimally replicated blocks:   1 (100.0 %)
+ Over-replicated blocks:        0 (0.0 %)
+ Under-replicated blocks:       0 (0.0 %)
+ Mis-replicated blocks:         0 (0.0 %)
+ Default replication factor:    1
+ Average block replication:     1.0
+ Corrupt blocks:                0
+ Missing replicas:              0 (0.0 %)
+ Number of data-nodes:          1
+ Number of racks:               1
+FSCK ended at Wed Apr 01 19:55:43 UTC 2026 in 1 milliseconds
+
+
+The filesystem under path '/user/maria_dev/exam/tags_64.csv' is HEALTHY
